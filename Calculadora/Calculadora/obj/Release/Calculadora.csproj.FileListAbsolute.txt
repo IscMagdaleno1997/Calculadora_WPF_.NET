@@ -1,0 +1,29 @@
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\bin\Release\Calculadora.exe.config
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\bin\Release\Calculadora.exe
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\bin\Release\Calculadora.pdb
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora.csprojAssemblyReference.cache
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\MainWindow.g.cs
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\App.g.cs
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora_MarkupCompile.cache
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora_MarkupCompile.lref
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\MainWindow.baml
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora.g.resources
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora.Properties.Resources.resources
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora.csproj.GenerateResource.cache
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora.exe
+C:\Users\iscma\Documents\trabajos en C#\Calculadora\Calculadora\obj\Release\Calculadora.pdb
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\bin\Release\Calculadora.exe.config
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\bin\Release\Calculadora.exe
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\bin\Release\Calculadora.pdb
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora.csprojAssemblyReference.cache
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\MainWindow.g.cs
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\App.g.cs
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora_MarkupCompile.cache
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora_MarkupCompile.lref
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\MainWindow.baml
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora.g.resources
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora.Properties.Resources.resources
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora.csproj.GenerateResource.cache
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora.exe
+C:\Users\ing_s\Documents\Repositorios\Calculadora_WPF_.NET\Calculadora\Calculadora\obj\Release\Calculadora.pdb

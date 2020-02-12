@@ -1,0 +1,247 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="495.308" Width="640.389">
+    <Grid Margin="0,0,2,0">
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF347580"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="97*"/>
+            <RowDefinition Height="135*"/>
+        </Grid.RowDefinitions>
+        <Grid Margin="34.714,19.617,330.613,-13.599" Grid.Row="1" Height="264.161" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90*"/>
+                <ColumnDefinition Width="90*"/>
+                <ColumnDefinition Width="90*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btn7" Content="7" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="12,10,0,204.161" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn8" Content="8" RenderTransformOrigin="0,0" Foreground="#FFFFFDFD" FontFamily="Stencil" FontSize="36" Margin="14.309,10,0,204.161" Grid.Column="1" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn9" Content="9" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="14.362,10,0,204.161" Grid.Column="2" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn4" Content="4" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="12,65,0,149.161" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn2" Content="2" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="14.309,120,0,94.161" Grid.Column="1" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn6" Content="6" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="14.362,65,0,149.161" Grid.Column="2" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn1" Content="1" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="12,120,0,94.161" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn5" Content="5" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="14.309,65,0,149.161" Grid.Column="1" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn3" Content="3" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="14.362,120,0,94.161" Grid.Column="2" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btn0" Content="0" RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="10,175,1.422,33.143" Grid.ColumnSpan="2"  MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnPunto" Content="." RenderTransformOrigin="0,0" FontFamily="Stencil" FontSize="36" Foreground="#FFFFFDFD" Margin="13.362,176,0,34.161" Grid.Column="2" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Margin="0,19.108,42.091,0" Height="238.417" VerticalAlignment="Top" Grid.Row="1" HorizontalAlignment="Right" Width="271.016">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+                <ColumnDefinition Width="100*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnResta" Content="-" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="36" FontFamily="Stencil" Margin="10,66.018,1.647,92.399" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnDiv" Content="/" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="36" FontFamily="Stencil" Margin="88.353,66.018,11.016,92.399" Grid.Column="1" Grid.ColumnSpan="2" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnMult" Content="*" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="48" FontFamily="Sitka Display" Margin="3.353,66.018,9.324,92.399" Grid.Column="1" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnSuma" Content="+" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="36" FontFamily="Stencil" Margin="10,151.018,1.647,7.399" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnIgual" Content="=" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="36" FontFamily="Stencil" Margin="3.353,151.018,11.016,7.399" Grid.Column="1" Grid.ColumnSpan="2" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnBorrar1" Content="&lt;" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="36" FontFamily="Stencil" Margin="10,10,1.647,177.399" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnBorrarCasilla" Content="&lt;=" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="36" FontFamily="Stencil" Margin="3.353,10,9.324,177.399" Grid.Column="1" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnBorrarTodo" Content="C" BorderBrush="#FFABADB3" Foreground="#FFD2DAE0" FontSize="36" FontFamily="Stencil" Margin="89.369,10,10,177.399" Grid.Column="1" Grid.ColumnSpan="2" MouseEnter="OnGotFocusHandler"
+      MouseLeave="OnLostFocusHandler">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Margin="35,23,52,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="38*"/>
+                <RowDefinition Height="83*"/>
+                <RowDefinition Height="35*"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="txtCadena" TextWrapping="Wrap" Margin="0,0.226,0,2.126" Foreground="#FFD2DAE0" TextAlignment="Right" FontSize="20" Grid.Row="1" IsEnabled="False">
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtTotal" TextWrapping="Wrap" Height="33.1" VerticalAlignment="Top" Foreground="#FFD2DAE0" TextAlignment="Right" FontSize="20" IsEnabled="False">
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+            <TextBox x:Name="txtNumero" TextWrapping="Wrap" Margin="0,3,-0.162,0" Height="30" VerticalAlignment="Top" Foreground="#FFD2DAE0" TextAlignment="Right" FontSize="20" Grid.Row="2" RenderTransformOrigin="0.5,0.5" TextChanged="txtNumero_TextChanged">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-1.672"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-0.471"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+                <TextBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="#FF347580"/>
+                    </LinearGradientBrush>
+                </TextBox.Background>
+            </TextBox>
+
+        </Grid>
+
+    </Grid>
+</Window>
